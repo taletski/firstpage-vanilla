@@ -1,0 +1,43 @@
+body {
+	font-family: sans-serif;
+}
+
+.content-position {
+	/*text-align: center;*/
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+  	border: 1px solid #e5e5e5;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/* for page mking convenience*/
+	background-color: #f5f5f5;
+  	border: 1px solid #e5e5e5;
+}
+
+.menu_position-right {
+	float: right;
+}
+
+.menu__item {
+
+}
+
+.menu__item_horizontal {
+	display: inline;
+}
+
+.menu__link {
+	text-decoration: none;
+}
+
+.menu__link_horizontal {
+
+}
