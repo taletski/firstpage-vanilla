@@ -2,6 +2,18 @@ body {
 	font-family: sans-serif;
 }
 
+.head {
+	margin: 0;
+	background-color: #f0f0f0;
+
+}
+
+.head_clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .content-position {
 	/*text-align: center;*/
 	width: 1000px;
@@ -10,14 +22,26 @@ body {
 
 .logo {
 	float: left;
-  	border: 1px solid #e5e5e5;
+/*	background: url('img/logo.svg');*/
+	/* for page making convenience*/
+  	/*border: 1px solid #e5e5e5;*/
+
+  	/*Color #00e9ff*/
+}
+
+.logo__image {
+	width: 130px;
+}
+
+.logo__image_left {
+	float: left;
 }
 
 .menu {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	/* for page mking convenience*/
+	/* for page making convenience*/
 	background-color: #f5f5f5;
   	border: 1px solid #e5e5e5;
 }
