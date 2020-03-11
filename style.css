@@ -1,14 +1,20 @@
 body {
+	margin: 0;
+	padding: 0;
 	font-family: sans-serif;
 }
 
 .head {
 	margin: 0;
-	background-color: #f0f0f0;
+	background-color: #f5f5f5;
+}
+
+.head_layout {
 
 }
 
-.head_clearfix {
+/* clearfix */
+.head::after {
 	content: "";
 	display: table;
 	clear: both;
@@ -16,8 +22,8 @@ body {
 
 .content-position {
 	/*text-align: center;*/
-	width: 1000px;
-	margin: 0 auto;
+	width: 800px;
+	margin: auto;
 }
 
 .logo {
@@ -42,12 +48,13 @@ body {
 	padding: 0;
 	list-style: none;
 	/* for page making convenience*/
-	background-color: #f5f5f5;
-  	border: 1px solid #e5e5e5;
+	/*background-color: #f5f5f5;
+  	border: 1px solid #e5e5e5;*/
 }
 
 .menu_position-right {
 	float: right;
+	margin: 10px 0;
 }
 
 .menu__item {
