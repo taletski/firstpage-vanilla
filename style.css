@@ -4,13 +4,15 @@ body {
 	font-family: sans-serif;
 }
 
+/*HEAD WITH LOGO AND MENU------------------------*/
 .head {
 	margin: 0;
 	background-color: #f5f5f5;
 }
 
 .head_layout {
-
+	height: 60px;
+	padding-top: 25px;
 }
 
 /* clearfix */
@@ -22,10 +24,12 @@ body {
 
 .content-position {
 	/*text-align: center;*/
-	width: 800px;
+	width: 900px;
 	margin: auto;
 }
 
+
+/*LOGO*/
 .logo {
 	float: left;
 /*	background: url('img/logo.svg');*/
@@ -35,14 +39,20 @@ body {
   	/*Color #00e9ff*/
 }
 
+.logo_layout {
+
+}
+
 .logo__image {
-	width: 130px;
+	height: 40px;
 }
 
 .logo__image_left {
 	float: left;
 }
 
+
+/*MENU*/
 .menu {
 	margin: 0;
 	padding: 0;
@@ -52,9 +62,18 @@ body {
   	border: 1px solid #e5e5e5;*/
 }
 
+.menu-box {
+
+}
+
 .menu_position-right {
+	/*display: inline-block;*/
+	/*position: absolute;*/
+	/*bottom: 10px;*/
+	/*right: 10px;*/
 	float: right;
-	margin: 10px 0;
+	margin: 40px 0;
+
 }
 
 .menu__item {
