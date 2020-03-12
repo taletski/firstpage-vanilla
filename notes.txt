@@ -1,8 +1,5 @@
 # Do
-Float the menu-box to the right;
-Find out how the font-size is related to the height of the element in pixels; 
-And/or try to avoid binding to the font size; 
-Just set height to the element and use vertical-align;
+
 
 
 # Questions
