@@ -39,7 +39,7 @@ body {
 /*MENU*/
 .menu-box {
 	float: right;
-	padding: 10.6px 0;
+	padding: 0.6px 0;
 }
 
 .menu-box::after {
@@ -66,21 +66,22 @@ body {
 
 .menu__item_horizontal {
 	display: inline-block;
-	vertical-align: middle;
+	padding: 10px 25px;
+}
+
+.menu__item_active {
+	color: lightblue;
+	background-color: #fff;
+}
+
+.menu__item:hover {
+	text-decoration: underline;
 }
 
 .menu__link {
 	font-size: 14px;
 	text-decoration: none;
 	color: #0f0f0f;
-}
-
-.menu__link_horizontal {
-
-}
-
-.menu__item_sparse {
-	padding: 0 25px;
 }
 
 

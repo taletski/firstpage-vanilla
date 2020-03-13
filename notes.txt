@@ -1,4 +1,15 @@
-# Do
+# Do / done
+
+Vertical submenu
+Menu dropdown item 
+Menu active element design
+
+
+Get rid of the head__content class;
+Understand why menu items do not react to the vertical-align
+Float the menu-box to the right;
+Find out how the font-size is related to the height of the element in pixels; 
+And/or try to avoid binding to the font size; 
 
 
 
