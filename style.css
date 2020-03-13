@@ -57,26 +57,30 @@ body {
 
 .menu_horizontal {
 	vertical-align: middle;
-	/*border: 2px solid blue;*/
 }
 
 .menu_position-right {
 	float: right;
 }
 
+.menu__item:not(.menu__item_active):hover {
+	text-decoration: underline;
+}
+
 .menu__item_horizontal {
 	display: inline-block;
-	padding: 10px 25px;
+	padding: 5px 25px 10px;
+	border-top: 5px solid #f5f5f5;
 }
 
 .menu__item_active {
-	color: lightblue;
+	text-decoration: none;
+	color: blue;
 	background-color: #fff;
+	border-top: 5px solid #69d6eb;   
+/*105=6_9; 230=14_6=d6; 252=15_12=eb*/
 }
 
-.menu__item:hover {
-	text-decoration: underline;
-}
 
 .menu__link {
 	font-size: 14px;
