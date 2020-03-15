@@ -1,11 +1,16 @@
-# Do / done
+# Do
 
-Vertical submenu
-Menu dropdown item 
+Vertical submenu;
+Delete a whitespace between the inline <a> link and the <svg> dropdown icon
+
+
+#Done
+
+Include dropdown icon;
+Create svg sprites; 
+Find icons;
 Menu active element design
-
-
-Get rid of the head__content class;
+Get rid of the head__content block;
 Understand why menu items do not react to the vertical-align
 Float the menu-box to the right;
 Find out how the font-size is related to the height of the element in pixels; 

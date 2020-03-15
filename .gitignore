@@ -1,6 +1,9 @@
 #ignored files
 .DS_Store
 ~$*
+img/symbol-defs.svg
 
 # ignored directories
 img/original/
+img/archive
+
