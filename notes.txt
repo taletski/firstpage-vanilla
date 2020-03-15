@@ -1,11 +1,12 @@
 # Do
 
 Vertical submenu;
-Delete a whitespace between the inline <a> link and the <svg> dropdown icon
+
 
 
 #Done
 
+Delete a whitespace between the inline <a> link and the <svg> dropdown icon;
 Include dropdown icon;
 Create svg sprites; 
 Find icons;

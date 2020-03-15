@@ -92,8 +92,9 @@ body {
 }
 
 .menu__icon-dropdown {
+	display: inline;
 	height: 10px;
-	width: 10px; 
+	width: 15px; 
 	fill: #0f0f0f;
 }
 
