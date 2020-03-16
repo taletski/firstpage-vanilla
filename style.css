@@ -71,7 +71,7 @@ body {
 	display: inline-block;
 	color: #0f0f0f;
 	font-size: 14px;
-	padding: 5px 20px 10px; 
+	padding: 5px 20px 13px; 
 	border-top: 5px solid #f5f5f5;
 }
 
@@ -80,6 +80,7 @@ body {
 }
 
 .menu__item_active {
+	position: relative;
 	text-decoration: none;
 	color: #49C6DB;
 	background-color: #fff;
@@ -97,6 +98,33 @@ body {
 	width: 15px; 
 	fill: #0f0f0f;
 }
+
+/*SUBMENU*/
+.submenu {
+	position: absolute;
+	left: 0;
+	top: 34px;
+	padding: 0px 5px 15px 5px;
+	border-bottom: 5px solid #49C6DB;
+	width: 185px;
+	background-color: #fff;
+}
+
+.submenu__item {
+	/*display: block;*/
+	padding: 15px 0px 5px 10px;
+	color: #0f0f0f;
+	border-bottom: 1px solid #eee;
+}
+
+.submenu__item_last {
+	border-bottom: none;
+}
+
+.submenu__link:hover {
+	color: #49C6DB;
+}
+
 
 
 /*GLOBAL-------------------------------------------*/
