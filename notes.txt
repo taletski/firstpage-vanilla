@@ -1,11 +1,12 @@
 # Do
 
-Vertical submenu;
-
+Create the gallery;
 
 
 #Done
 
+Find out how to create the gallery;
+Vertical submenu;
 Delete a whitespace between the inline <a> link and the <svg> dropdown icon;
 Include dropdown icon;
 Create svg sprites; 
@@ -20,3 +21,10 @@ And/or try to avoid binding to the font size;
 
 
 # Questions
+
+
+
+# Notes
+
+If fill property is applied to the svg sprite one can not apply styles to the svg with the css. The good way to go is to apply all styles to icons in the css and never in the svg files
+
