@@ -1,13 +1,13 @@
 var slideIndex = 1;
-document.addEventListener('load', showDivs(slideIndex));
+document.addEventListener('load', gallety_navShowDivs(slideIndex));
 
-function currentDiv(n) {
-	showDivs(slideIndex = n);
+function gallery__navCurrentDiv(n) {
+	gallety_navShowDivs(slideIndex = n);
 }
 
 var test;
 
-function showDivs(n) {
+function gallety_navShowDivs(n) {
 	var i;
 	var images = document.getElementsByClassName("slideshow__display-image");
 	var dots = document.getElementsByClassName("slideshow__nav-circle");

@@ -1,10 +1,12 @@
 # Do
 
-Create the gallery;
-
+Use :focus-within to make it accessible with keyboard;
+Make the navigation dropdown submenus active upon hover;
 
 #Done
 
+Use transition-duration property to make transitions smoother;
+Create the gallery;
 Find out how to create the gallery;
 Vertical submenu;
 Delete a whitespace between the inline <a> link and the <svg> dropdown icon;
