@@ -1,10 +1,9 @@
 # Do
 
-Use :focus-within to make it accessible with keyboard;
-Make the navigation dropdown submenus active upon hover;
 
 #Done
 
+Make the navigation dropdown submenus active upon hover;
 Use transition-duration property to make transitions smoother;
 Create the gallery;
 Find out how to create the gallery;
@@ -20,6 +19,9 @@ Float the menu-box to the right;
 Find out how the font-size is related to the height of the element in pixels; 
 And/or try to avoid binding to the font size; 
 
+#Do later:
+
+Use :focus-within to make it accessible with keyboard;
 
 
 # Questions
@@ -28,5 +30,5 @@ And/or try to avoid binding to the font size;
 
 # Notes
 
-If fill property is applied to the svg sprite one can not apply styles to the svg with the css. The good way to go is to apply all styles to icons in the css and never in the svg files
+If fill property is applied to the svg sprite one can not apply styles to the svg with the css. The good way to go is to apply all styles to icons in the css and never in the svg files.
 

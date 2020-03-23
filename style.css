@@ -119,6 +119,11 @@ body {
 	fill: #0f0f0f;
 }
 
+.menu__item_dropdown:hover > .submenu,
+.submenu:hover {
+	display: block;
+}
+
 /*SUBMENU*/
 .submenu {
 	position: absolute;
@@ -128,6 +133,7 @@ body {
 	border-bottom: 5px solid #59D6EB;
 	width: 185px;
 	background-color: #fff;
+	display: none;
 }
 
 .submenu__item {
