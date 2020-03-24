@@ -21,7 +21,8 @@ And/or try to avoid binding to the font size;
 
 #Do later:
 
-Use :focus-within to make it accessible with keyboard;
+Use :focus-within to make the dropdown submenu accessible with keyboard;
+Fix: html shows all of the images in the gallery for a moment before the .css styles are applied.
 
 
 # Questions
