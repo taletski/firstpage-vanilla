@@ -1,5 +1,14 @@
 # Do
 
+Implement TESTIMONIALS subsection;
+Implement OUR CLIENTS subsection;
+Implement footer;
+
+Add transition animation to the main gallery;
+Add automatic scrolling to the main gallery;
+Add transitions to the 'LATEST WORKS' gallery;
+Add transition animation to the 'LATEST WORKS' gallery scrolling;
+Add an inner pop-up submenu upon hovering pictures in the 'LATEST WORKS' gallery;
 
 #Done
 
