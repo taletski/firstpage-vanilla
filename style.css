@@ -313,7 +313,8 @@ body {
 .latest-works__images-container {
 	display: flex;
 	justify-content: space-between;
-	margin: 20px 0;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 /*TESTIMONIALS AND OUR CLIENTS----------------------------------------------------------------------*/
@@ -324,8 +325,9 @@ body {
 	justify-content: space-between;
 }
 
+/*TESTIMONIALS*/
 .card_testimonials {
-	width: 460px;
+	width: 470px;
 	/*flex-grow: 1;*/
 }
 
@@ -333,13 +335,64 @@ body {
 	font-size: 14px;
 	font-weight: bold;
 	font-style: italic;
-
 }
 
+/*OUR CLIENTS*/
 .card_clients {
-	width: 460px;
+	width: 470px;
 	/*flex-grow: 1;*/
 }
+
+/*
+The following section works on flexboxes.
+The best way to keep it nice is to change
+size of the logos by changing their 
+height only.
+*/
+
+.card__content_clients {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*align-content: center;*/
+}
+
+.logo-container {
+	/*border: solid 1px red;*/
+
+	box-shadow: inset 0 0 10px #ddd;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.logo_clients {
+	width: 140px;
+	height: 80px;
+	/*border: solid 1px #eee;*/
+}
+
+.logo_netflix {
+	height: 25px;
+}
+
+.logo_sberbank {
+	height: 23px;
+	fill: green;
+}
+
+.logo_velcom {
+	fill: #cc0000;
+}
+
+.logo_belaz {
+	fill: #153d83;
+	height: 70px;
+}
+
+/* FOOTER ----------------------------------------------------------------------*/
+
 
 
 
