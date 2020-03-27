@@ -231,6 +231,10 @@ body {
 	font-size: 16px;
 }
 
+.card__header_span {
+	font-weight: bold;
+}
+
 .card__content {
 	padding: 10px 0;
 	font-size: 14px;
@@ -297,7 +301,7 @@ body {
 	margin: 0 0 0 5px;
 	width: 20px;
 	color: #333;
-	background-color: #39b6cb;
+	background-color: #49c6db;
 	display: flex;
 	justify-content: center;
 }
@@ -311,3 +315,33 @@ body {
 	justify-content: space-between;
 	margin: 20px 0;
 }
+
+/*TESTIMONIALS AND OUR CLIENTS----------------------------------------------------------------------*/
+.content__container {
+	border-top: solid 2px #eee;
+	padding: 25px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card_testimonials {
+	width: 460px;
+	/*flex-grow: 1;*/
+}
+
+.card__footer_author-bold-cursive {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+.card_clients {
+	width: 460px;
+	/*flex-grow: 1;*/
+}
+
+
+
+
+
