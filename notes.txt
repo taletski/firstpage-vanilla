@@ -1,9 +1,10 @@
 # Do
 
-Implement TESTIMONIALS subsection;
-Implement OUR CLIENTS subsection;
 Implement footer;
 
+For all menus: apply styles and :hover to links, not divs. This will make the whole menu item clickable, not only the text;
+Make the main logo a clickable link;
+Make "Our Clients" logos clickable links;
 Add transition animation to the main gallery;
 Add automatic scrolling to the main gallery;
 Add transitions to the 'LATEST WORKS' gallery;
@@ -12,6 +13,8 @@ Add an inner pop-up submenu upon hovering pictures in the 'LATEST WORKS' gallery
 
 #Done
 
+Implement TESTIMONIALS subsection;
+Implement OUR CLIENTS subsection;
 Make the navigation dropdown submenus active upon hover;
 Use transition-duration property to make transitions smoother;
 Create the gallery;

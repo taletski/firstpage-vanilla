@@ -13,13 +13,13 @@
 		<div class="head__content content-horizontal-center content-vertical-align">
 			<!-- logo -->
 			<!-- <div class="head__logo-box"><img class="head__logo-image" src="img/logo.svg"></div> -->
-			<img class="head__logo-image head__logo-image_left" src="img/logo.svg">
+			<img class="main-logo main-logo_left" src="img/logo.svg">
 			<!-- menu -->
 			<div class="menu-box">
 				<ul class="menu menu_horizontal menu_position-right">
-					<li class="menu__item menu__item_horizontal menu__item_transition"><a class="menu__link" href="#home"		>HOME</a>	  	</li>
-					<li class="menu__item menu__item_horizontal menu__item_transition"><a class="menu__link" href="#about"	>ABOUT US</a> 	</li>
-					<li class="menu__item menu__item_horizontal menu__item_transition menu__item_dropdown menu__item_active">
+					<li class="menu__item menu__item_horizontal menu__item_hover-main menu__item_transition"><a class="menu__link" href="#home"		>HOME</a>	  	</li>
+					<li class="menu__item menu__item_horizontal menu__item_hover-main menu__item_transition"><a class="menu__link" href="#about"	>ABOUT US</a> 	</li>
+					<li class="menu__item menu__item_horizontal menu__item_hover-main menu__item_transition menu__item_dropdown menu__item_active">
 						
 						<a class="menu__link" href="#services">SERVICES</a><!-- this comment is removing the whitespace between the elements
 					 --><svg class="menu__icon-dropdown"><use href="#icon-dropdown"></use></svg>
@@ -33,14 +33,14 @@
 						</ul>
 
 					</li>
-					<li class="menu__item menu__item_horizontal menu__item_transition menu__item_dropdown">
+					<li class="menu__item menu__item_horizontal menu__item_hover-main menu__item_transition menu__item_dropdown">
 					
 						<a class="menu__link" href="#portfolio">PORTFOLIO</a><!-- this comment is removing the whitespace between the elements
 					 --><svg class="menu__icon-dropdown"><use href="#icon-dropdown"></use></svg>
 					
 					</li>
-					<li class="menu__item menu__item_horizontal menu__item_transition"><a class="menu__link" href="#blog"		>BLOG</a>	  	</li>
-					<li class="menu__item menu__item_horizontal menu__item_transition"><a class="menu__link" href="#contacts"	>CONTACT US</a>	</li>
+					<li class="menu__item menu__item_horizontal menu__item_hover-main menu__item_transition"><a class="menu__link" href="#blog"		>BLOG</a>	  	</li>
+					<li class="menu__item menu__item_horizontal menu__item_hover-main menu__item_transition"><a class="menu__link" href="#contacts"	>CONTACT US</a>	</li>
 				</ul>
 			</div>	
 		</div>
@@ -162,13 +162,11 @@
 					<svg class="card__icon"><use xlink:href="#icon-testimonials"></use></svg>
 					<span class="card__header card__header_span">TESTIMONIALS</span>
 				</div>
-				
 				<div class="card__content">
 					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 					Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
 					Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 				</div>
-				
 				<div class="card__footer card__footer_author-bold-cursive">
 					John Travis, CEO, domainname.com
 				</div>
@@ -183,7 +181,7 @@
 					<div class="logo-container logo-container_ny-times"		><svg class="logo_clients logo_ny-times"><use xlink:href="#icon-clients-ny-times"		></use></svg></div>
 					<div class="logo-container logo-container_zillow"		><svg class="logo_clients logo_zillow"	><use xlink:href="#icon-clients-zillow"			></use></svg></div>
 					<div class="logo-container logo-container_sberbank"		><svg class="logo_clients logo_sberbank"><use xlink:href="#icon-clients-sberbank"		></use></svg></div>
-					<div class="logo-container logo-container_velcom"			><svg class="logo_clients logo_velcom"		><use xlink:href="#icon-clients-velcom"			></use></svg></div>
+					<div class="logo-container logo-container_velcom"		><svg class="logo_clients logo_velcom"		><use xlink:href="#icon-clients-velcom"			></use></svg></div>
 					<div class="logo-container logo-container_belaz"		><svg class="logo_clients logo_belaz"	><use xlink:href="#icon-clients-belaz"			></use></svg></div>
 				</div>
 			</div>
@@ -192,7 +190,72 @@
 
 	<!-- FOOTER -->
 	<div class="footer">
-		
+		<div class="footer__container content-horizontal-center">
+			<div class="card card_about">
+				<div class="card__head">
+					<span class="card__header card__header_span">ABOUT US</span>
+				</div>
+				<div class="card__content footer_small-font">
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+					Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 		
+				</div>
+			</div>
+
+			<div class="card card_explore">
+				<div class="card__head">
+					<span class="card__header card__header_span">EXPLORE</span>
+				</div>
+				<div class="card__content footer_small-font card__content_links">
+					<ul class="menu menu_vertical menu_simple-footer">
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#home">		Home 		</a></li>
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#about">		About Us 	</a></li>
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#services">	Services 	</a></li>
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#portfolio">	Portfolio 	</a></li>
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#blog">		Blog 		</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card card_browse">
+				<div class="card__head">
+					<span class="card__header card__header_span">BROWSE</span>
+				</div>
+				<div class="card__content footer_small-font card__content_links">
+					<ul class="menu menu_vertical">
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#home">		Careers 			</a></li>
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#about">		Press & Media 		</a></li>
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#services">	Contact Us 			</a></li>
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#portfolio">	Terms of Service 	</a></li>
+						<li class="menu__item menu__item_simple-footer menu__item_transition"><a class="menu__link menu__link_vertical menu__link_grey" href="#blog">		Privacy Policy 		</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card card_contact">
+				<div class="card__head">
+					<span class="card__header card__header_span">CONTACT US</span>
+				</div>
+				<div class="card__content footer_small-font">
+					
+				</div>
+			</div>
+
+			<div class="card card_connect">
+				<div class="card__head">
+					<span class="card__header card__header_span">CONNECT WITH US</span>
+				</div>
+				<div class="card__content footer_small-font">
+					
+				</div>
+			</div>
+
+			<div class="copyright footer_small-font copyright_flex-bottom flex-element_large-margin-top">
+				(C) Copyright 1990 - BisLite Inc. All rights reserved.
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+			</div>
+			<img class="main-logo flex-element_large-margin-top" src="img/logo.svg">
+
+		</div>
 
 	</div>
 </body>
