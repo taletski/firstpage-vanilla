@@ -415,31 +415,36 @@ height only.
 	flex-wrap: wrap;
 }
 
+.menu__item_no-padding-top {
+	padding: 0 0 5px 0;
+}
+
 .menu__item_simple-footer {
 	padding: 5px 0;
 }
 
 .menu__item_simple-footer:hover {
 	text-decoration: underline;
+	color: #999;
 }
 
-.card_about {
+.card_width-about {
 	width: 250px;
 }
 
-.card_explore {
+.card_width-explore {
 	width: 100px;
 }
 
-.card_browse {
+.card_width-browse {
 	width: 100px;
 }
 
-.card_contact {
+.card_width-contact {
 	width: 150px;
 }
 
-.card_connect {
+.card_width-connect {
 	width: 250px;
 }
 
