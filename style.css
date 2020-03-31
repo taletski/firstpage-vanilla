@@ -448,6 +448,10 @@ height only.
 	width: 250px;
 }
 
+.card__content_padding-top-large {
+	padding-top: 18px;
+}
+
 .copyright {
 	width: 750px;
 }
