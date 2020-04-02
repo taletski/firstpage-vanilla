@@ -394,7 +394,7 @@ height only.
 
 .logo_belaz {
 	fill: #153d83;
-	height: 70px;
+	height: 80px;
 }
 
 /* FOOTER ----------------------------------------------------------------------*/
@@ -423,9 +423,13 @@ height only.
 	padding: 5px 0;
 }
 
-.menu__item_simple-footer:hover {
+.menu__item_simple-footer-hover:hover {
 	text-decoration: underline;
 	color: #999;
+}
+
+.card_height-footer {
+	height: 190px;
 }
 
 .card_width-about {
@@ -445,7 +449,7 @@ height only.
 }
 
 .card_width-connect {
-	width: 250px;
+	width: 210px;
 }
 
 .card__content_padding-top-large {
@@ -463,6 +467,46 @@ height only.
 .flex-element_large-margin-top {
 	margin-top: 20px;
 }
+
+.card__content_connect {
+	padding: -30px 0;
+	height: 110px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.icon_contact {
+	width: 35px;
+	height: 50px;
+}
+
+.icon_contact-mail {
+	fill: #ff3333;
+}
+
+.icon_contact-lkdn {
+	fill: #2867B2;
+}
+
+.icon_contact-fb {
+	fill: #4267B2;
+}
+
+.icon_contact-vk {
+	fill: #4680C2;
+}
+
+.icon_contact-xoom {
+	fill: #6eb557;
+}
+
+.icon_contact-rss {
+	fill: #ee802f;
+}
+
 
 /*.card_explore, .card_browse, 
 .card_about, .card_contact,
