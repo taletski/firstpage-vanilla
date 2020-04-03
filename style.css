@@ -240,12 +240,37 @@ body {
 	/*line-height: 16px;*/
 }
 
+
+.card__content_padding-top {
+	padding-top: 0;
+}
+
+.card__content_connect {
+	padding: -30px 0;
+	height: 110px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.card__content_pre {
+	white-space: pre;
+}
+
 .card__footer {
 	padding-top: 5px;
 	font-size: 12px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+}
+
+.card__footer_author-bold-cursive {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
 }
 
 .card__icon-read-more {
@@ -328,12 +353,6 @@ body {
 .card_testimonials {
 	width: 470px;
 	/*flex-grow: 1;*/
-}
-
-.card__footer_author-bold-cursive {
-	font-size: 14px;
-	font-weight: bold;
-	font-style: italic;
 }
 
 /*OUR CLIENTS*/
@@ -448,10 +467,6 @@ height only.
 	width: 210px;
 }
 
-.card__content_padding-top-large {
-	padding-top: 18px;
-}
-
 .copyright {
 	width: 750px;
 }
@@ -462,16 +477,6 @@ height only.
 
 .flex-element_large-margin-top {
 	margin-top: 20px;
-}
-
-.card__content_connect {
-	padding: -30px 0;
-	height: 110px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: space-between;
 }
 
 .icon_contact {
@@ -502,13 +507,6 @@ height only.
 .icon_contact-rss {
 	fill: #ee802f;
 }
-
-
-/*.card_explore, .card_browse, 
-.card_about, .card_contact,
-.card_connect, .copyright {
-	border: solid 1px #aaa;
-}*/
 
 
 
