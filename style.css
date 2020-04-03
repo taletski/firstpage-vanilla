@@ -214,6 +214,13 @@ body {
 	width: 230px;
 }
 
+.card_transition-slow {
+	-webkit-transition: all 0.2s ease-out;
+  	-moz-transition: all 0.2s ease-out;
+  	-o-transition: all 0.2s ease-out;
+  	transition: all 0.2s ease-out;
+}
+
 .card__head {
 	display: flex;
 	justify-content: flex-start;
@@ -404,13 +411,26 @@ height only.
 }
 
 .logo_velcom {
+	height: 27px;
 	fill: #cc0000;
 }
 
 .logo_belaz {
-	fill: #153d83;
 	height: 80px;
+	fill: #153d83;
 }
+
+.logo-container:hover {
+	box-shadow: inset 0 0 13px #c5c5c5;
+}
+
+.logo-container:hover .logo {
+	transform: scale(1.1);
+}
+/*
+.logo:hover {
+	transform: scale(1.1);
+}*/
 
 /* FOOTER ----------------------------------------------------------------------*/
 .footer {
