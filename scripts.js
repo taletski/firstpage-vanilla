@@ -1,6 +1,7 @@
 var slideIndex = 1;
 document.addEventListener('load', gallety_navShowDivs(slideIndex));
 
+
 function gallery__navCurrentDiv(n) {
 	gallety_navShowDivs(slideIndex = n);
 }

@@ -1,9 +1,8 @@
 # Do
 
-Use CSS 'white-space: pre' to preserve formatting of the 'Contact us' subsection;
 Make the main logo a clickable link;
-Make "Our Clients" logos clickable links;
 Add transition animation to the main gallery;
+Main gallery navigation hover: switch cursor to pointer;
 Add slideshow auto-play to the main gallery;
 Add transitions to the 'LATEST WORKS' gallery;
 Add transition animation to the 'LATEST WORKS' gallery scrolling;
@@ -11,6 +10,8 @@ Add an inner pop-up submenu upon hovering pictures in the 'LATEST WORKS' gallery
 
 #Done
 
+Use CSS 'white-space: pre' to preserve formatting of the 'Contact us' subsection;
+Make "Our Clients" logos clickable links;
 For all menus: apply styles and :hover to links, not divs. This will make the whole menu item clickable, not only the text;
 Implement footer section;
 Implement TESTIMONIALS subsection;
