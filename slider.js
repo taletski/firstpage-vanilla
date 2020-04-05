@@ -81,11 +81,11 @@ var multiItemSlider = (function () {
 			return {
 				right: function () {
 					_transformItem('right');
-				}
+				},
 				left: function () {
 					_transformItem('left');
 				}
 			}
-			
+
 	}
 }());
