@@ -23,8 +23,7 @@ function gallety_navShowDivs(n) {
 		dots[i].className.baseVal = dots[i].className.baseVal.replace(" slideshow__nav-circle_white", "");
 		/* WARNING: in this case dots refer to svg objects, therefore, 
 		.className returns SVGAnimatedString instead of a simple string.
-		THIS IS NOT SUPPORTED by Chrome for Android and by IE.
-		This also requires to refer to modify the baseVal of the string*/
+		THIS IS NOT SUPPORTED by Chrome for Android and by IE.*/
 	}
 	dots[slideIndex - 1].className.baseVal += " slideshow__nav-circle_white";
 }
