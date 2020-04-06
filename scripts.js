@@ -6,8 +6,6 @@ function gallery__navCurrentDiv(n) {
 	gallety_navShowDivs(slideIndex = n);
 }
 
-var test;
-
 function gallety_navShowDivs(n) {
 	var i;
 	var images = document.getElementsByClassName("slideshow__display-image");

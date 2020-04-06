@@ -1,6 +1,5 @@
 # Do
 
-Disable text selection in the 'Our Clients' slider controls;
 Make the main logo a clickable link;
 Main gallery navigation hover: switch cursor to pointer;
 Add slideshow auto-play to the main gallery;
@@ -8,6 +7,7 @@ Add an inner pop-up submenu upon hovering pictures in the 'LATEST WORKS' gallery
 
 #Done
 
+Disable text selection in the 'Our Clients' slider controls;
 Add transitions to the 'LATEST WORKS' gallery;
 Add transition animation to the 'LATEST WORKS' gallery scrolling;
 Use CSS 'white-space: pre' to preserve formatting of the 'Contact us' subsection;
