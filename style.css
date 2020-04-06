@@ -329,13 +329,14 @@ body {
 	margin-top: 20px;
 	margin-bottom: 50px;
 	display: flex;
-	justify-content: space-between;
 	transition: transform 0.5s ease;
 }
 
 .slider__item {
 	flex: 0 0 25%;
 	min-width: 25%;
+	display: flex;
+	justify-content: space-around;
 }
 
 .slider__controls {
