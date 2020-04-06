@@ -196,6 +196,11 @@ body {
 	fill: #fff;
 	opacity: 1;
 }
+
+.slideshow__nav-circle:hover {
+	cursor: pointer;
+}
+
 .slideshow__nav-circle:not(.slideshow__nav-circle_white):hover {
 	fill: #fff;
 	opacity: 0.5;

@@ -1,11 +1,11 @@
 # Do
 
-Main gallery navigation hover: switch cursor to pointer;
 Add slideshow auto-play to the main gallery;
 Add an inner pop-up submenu upon hovering pictures in the 'LATEST WORKS' gallery;
 
 #Done
 
+Main gallery navigation circles: switch cursor to pointer on hover;
 Make the main logos clickable links;
 Disable text selection in the 'Our Clients' slider controls;
 Add transitions to the 'LATEST WORKS' gallery;
