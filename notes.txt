@@ -1,12 +1,12 @@
 # Do
 
-Make the main logo a clickable link;
 Main gallery navigation hover: switch cursor to pointer;
 Add slideshow auto-play to the main gallery;
 Add an inner pop-up submenu upon hovering pictures in the 'LATEST WORKS' gallery;
 
 #Done
 
+Make the main logos clickable links;
 Disable text selection in the 'Our Clients' slider controls;
 Add transitions to the 'LATEST WORKS' gallery;
 Add transition animation to the 'LATEST WORKS' gallery scrolling;
