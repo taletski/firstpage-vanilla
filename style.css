@@ -349,17 +349,18 @@ body {
 	cursor: default;
 	margin: 0 0 0 5px;
 	width: 20px;
-	color: #333;
+	color: #aaa;
 	background-color: #eee;
 	display: flex;
 	justify-content: center;
 }
 
 .slider__control_show {
+	color: #333;
 	background-color: #49c6db;
 }
 
-.slider__control:hover {
+.slider__control_show:hover {
 	cursor: pointer;
 	background-color: #59d6eb;
 }
