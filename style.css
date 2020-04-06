@@ -11,7 +11,6 @@ body {
 }
 
 .content-horizontal-center {
-	/*text-align: center;*/
 	width: 1024px;
 	margin: 0 auto;
 }
@@ -95,7 +94,6 @@ body {
 }
 
 .menu__item_horizontal {
-	/*color: #0f0f0f;*/
 	font-size: 14px;
 	padding: 5px 10px 13px 10px; 
 	border-top: 5px solid #f5f5f5;
@@ -119,9 +117,7 @@ body {
 }
 
 .menu__link-container:hover 
-.menu__item_hover-main
-/*.submenu:hover < .menu__item_hover-main*/
-{
+.menu__item_hover-main {
 	color: #59D6EB;
 	background-color: #fff;
 	border-top: 5px solid #59D6EB;
@@ -165,10 +161,7 @@ body {
 }
 
 .slideshow__display-container {
-	padding: 15px 0 0px 0; 
-	/* horizontal padding: 
-	(slideshow-section-width - image-width) // 2 
-	= (1024 - 700)px // 2 = 164px*/
+	padding: 15px 0 0px 0;
 }
 
 .slideshow_display-image {
@@ -204,14 +197,12 @@ body {
 .slideshow__nav-circle:not(.slideshow__nav-circle_white):hover {
 	fill: #fff;
 	opacity: 0.5;
-	/*background-color: black;*/
 }
 
 
 /*KEYPOINTS----------------------------------------------------------------------*/
 .keypoints {
 	background-color: #f5f5f5;
-	/*box-sizing: border-box;*/
 	border: solid 1px #f5f5f5;
 }
 
@@ -256,7 +247,6 @@ body {
 .card__content {
 	padding: 10px 0;
 	font-size: 14px;
-	/*line-height: 16px;*/
 }
 
 
@@ -394,21 +384,18 @@ body {
 /*OUR CLIENTS*/
 .card_clients {
 	width: 470px;
-	/*flex-grow: 1;*/
 }
 
 /*
 The following section works on flexboxes.
-The best way to keep it nice is to change
-size of the logos by changing their 
-height only.
+The best way to keep it looking good is to change
+size of the logos by changing their height.
 */
 
 .card__content_clients {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	/*align-content: center;*/
 }
 
 .logo-container {
@@ -423,7 +410,6 @@ height only.
 .logo_clients {
 	width: 140px;
 	height: 80px;
-	/*border: solid 1px #eee;*/
 }
 
 .logo_netflix {
@@ -456,10 +442,6 @@ height only.
 .logo-container:hover .logo {
 	transform: scale(1.1);
 }
-/*
-.logo:hover {
-	transform: scale(1.1);
-}*/
 
 /* FOOTER ----------------------------------------------------------------------*/
 .footer {
