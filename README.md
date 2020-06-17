@@ -4,4 +4,4 @@ The page layout was chosen randomly (found somewhere in the internet).
 This project is for self-education purpose only.
 
 # Demo
-Cleck here to see the page itself!
+[Cleck here to see the page itself!](https://taletski.github.io/firstpage-vanilla/)
